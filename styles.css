@@ -62,6 +62,7 @@ h2 {
 .bearer-category {
   width: 100%;
   font-weight: bold;
+  color: #4169E1; /* Royal Blue for subheadings */
 }
 
 .bearer {
@@ -69,6 +70,26 @@ h2 {
   padding: 10px;
   border-radius: 5px;
   width: 250px;
+}
+
+.bearer .photo-placeholder {
+  width: 100px;
+  height: 100px;
+  background: #DDD;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+}
+
+.bearer p {
+  margin: 0;
+}
+
+.bearer p strong {
+  font-weight: bold;
+}
+
+.bearer p em {
+  font-style: italic;
 }
 
 #mom p {
@@ -98,7 +119,7 @@ h2 {
 }
 
 .photo-item:hover {
-  transform: scale(1.1); /* Zoom effect on hover */
+  transform: scale(1.45); /* Updated to 1.45x zoom on hover */
 }
 
 #about-us p {
