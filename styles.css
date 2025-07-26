@@ -82,7 +82,7 @@ h2 {
 }
 
 .bearer .photo-placeholder:hover {
-  transform: scale(1.3); /* 1.3x zoom on hover */
+  transform: scale(1.5); /* Confirmed 1.5x zoom on hover */
 }
 
 .bearer p {
@@ -124,7 +124,7 @@ h2 {
 }
 
 .photo-item:hover {
-  transform: scale(3); /* 3x zoom on hover */
+  transform: scale(2); /* Changed to 2x zoom on hover */
 }
 
 #about-us p {
@@ -182,4 +182,20 @@ h2 {
 
 .contact-info p {
   margin: 5px 0;
+}
+
+.contact-info .label {
+  color: #800080; /* Purple for labels */
+}
+
+.contact-info .detail {
+  color: #000000; /* Black for details */
+}
+
+.contact-info a.detail {
+  text-decoration: none;
+}
+
+.contact-info a.detail:hover {
+  text-decoration: underline; /* Underline on hover for email link */
 }
