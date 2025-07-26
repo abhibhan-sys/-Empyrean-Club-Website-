@@ -85,7 +85,7 @@ h2 {
 }
 
 .bearer p strong {
-  font-weight: bold;
+  font-weight: bold; /* Ensuring bold text */
 }
 
 .bearer p em {
@@ -119,7 +119,7 @@ h2 {
 }
 
 .photo-item:hover {
-  transform: scale(1.45); /* Updated to 1.45x zoom on hover */
+  transform: scale(1.45); /* 1.45x zoom on hover */
 }
 
 #about-us p {
