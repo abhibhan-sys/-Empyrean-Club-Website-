@@ -34,12 +34,12 @@ h1 {
 #banner {
   width: 100%;
   overflow: hidden;
+  margin-bottom: 20px; /* Space below moto for banner */
 }
 
 .banner-img {
   width: 100%;
   height: auto;
-  display: none; /* Placeholder hidden till banner is added */
 }
 
 section {
@@ -78,6 +78,11 @@ h2 {
   background: #DDD;
   margin: 0 auto 10px;
   border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.bearer .photo-placeholder:hover {
+  transform: scale(1.3); /* 1.3x zoom on hover */
 }
 
 .bearer p {
@@ -85,7 +90,7 @@ h2 {
 }
 
 .bearer p strong {
-  font-weight: bold; /* Ensuring bold text */
+  font-weight: bold;
 }
 
 .bearer p em {
@@ -119,7 +124,7 @@ h2 {
 }
 
 .photo-item:hover {
-  transform: scale(1.45); /* 1.45x zoom on hover */
+  transform: scale(3); /* 3x zoom on hover */
 }
 
 #about-us p {
@@ -148,6 +153,33 @@ h2 {
   margin-right: 5px;
 }
 
+/* Original company colors for social media icons */
+.social-links a[href*="instagram"] i {
+  color: #E1306C; /* Instagram pink-purple */
+}
+
+.social-links a[href*="linkedin"] i {
+  color: #0077B5; /* LinkedIn blue */
+}
+
+.social-links a[href*="youtube"] i {
+  color: #FF0000; /* YouTube red */
+}
+
+.social-links a[href*="x.com"] i,
+.social-links a[href*="twitter"] i {
+  color: #1DA1F2; /* Twitter blue */
+}
+
 .social-links a:hover {
   color: #DDA0DD; /* Lighter purple on hover */
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.contact-info p {
+  margin: 5px 0;
 }
