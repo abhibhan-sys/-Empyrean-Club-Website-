@@ -82,7 +82,7 @@ h2 {
 }
 
 .bearer .photo-placeholder:hover {
-  transform: scale(1.5); /* Confirmed 1.5x zoom on hover */
+  transform: scale(1.5); /* 1.5x zoom on hover */
 }
 
 .bearer p {
@@ -124,7 +124,7 @@ h2 {
 }
 
 .photo-item:hover {
-  transform: scale(2); /* Changed to 2x zoom on hover */
+  transform: scale(2); /* 2x zoom on hover */
 }
 
 #about-us p {
@@ -198,4 +198,50 @@ h2 {
 
 .contact-info a.detail:hover {
   text-decoration: underline; /* Underline on hover for email link */
+}
+
+.recruitment-form {
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recruitment-form h3 {
+  color: #800080;
+  margin-bottom: 10px;
+}
+
+.recruitment-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #800080;
+}
+
+.recruitment-form input,
+.recruitment-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.recruitment-form textarea {
+  resize: vertical;
+}
+
+.recruitment-form button {
+  background-color: #800080;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recruitment-form button:hover {
+  background-color: #6A2E6A; /* Darker purple on hover */
 }
