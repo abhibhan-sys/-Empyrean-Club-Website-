@@ -38,10 +38,12 @@ h1 {
 }
 
 .banner-img {
-  width: 20%; /* Reduced to 1/5th of the container width */
-  height: auto; /* Maintains original aspect ratio */
+  width: 20%; /* Remains 1/5th of the container width */
+  height: auto; /* Reset to natural height first */
   display: block;
   margin: 0 auto; /* Centers the image */
+  transform: scaleY(5); /* Increases height by 5x while maintaining aspect ratio */
+  transform-origin: top; /* Scales from the top to avoid shifting */
 }
 
 section {
